@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: /*linear-gradient(to left, rgb(119, 119, 245), rgb(100, 98, 98))*/ url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  /* background-color: rgb(255, 255, 255, 0.8); 
+  border: 2px solid black;*/
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  max-width: 2000px;
+  height: auto;
+  box-shadow: 8px 8px 8px 8px rgba(215, 245, 245, 0.936);
+  margin-left: 2000px;
+}
+
+h1 {
+  font-size: 10em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+label {
+  font-size: 6em;
+}
+
+input {
+  width: fit-content;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 4em;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+}
+
+#remember {
+  width: 60px;
+  height: 70px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 5em;
+  color: white;
+  background-color: #0b9e37;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ee2727;
+}
+.register {
+  font-size: 5em;
+}
+.register a {
+  text-decoration: none;
+  color: blue;
+}
+
+@media (max-width: 100%) {
+  .container {
+    padding: 15px;
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .input-group label {
+    font-size: 1em;
+  }
+
+  .input-group input[type="text"],
+  .input-group input[type="password"] {
+    font-size: 0.9em;
+    padding: 8px;
+  }
+
+  .btn {
+    font-size: 1em;
+    padding: 8px;
+  }
+}
