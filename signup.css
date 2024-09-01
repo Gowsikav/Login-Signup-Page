@@ -11,7 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: /*linear-gradient(to left, rgb(119, 119, 245), rgb(100, 98, 98))*/ url("images/signup-bgi.jpg");
+  background-image: url("images/signup-bgi.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
